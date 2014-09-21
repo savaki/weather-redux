@@ -1,0 +1,20 @@
+{
+	"ImportPath": "github.com/savaki/weather-redux",
+	"GoVersion": "go1.3.1",
+	"Deps": [
+		{
+			"ImportPath": "code.google.com/p/go.net/context",
+			"Comment": "null-136",
+			"Rev": "28ff664507e453c4455b8c65e701bbe2b2ac980d"
+		},
+		{
+			"ImportPath": "github.com/savaki/merge",
+			"Rev": "c630d3cc088c9103c80f51a756e33aa525820a94"
+		},
+		{
+			"ImportPath": "github.com/visionmedia/go-debug",
+			"Comment": "v1.1.1",
+			"Rev": "9b5dbbcea5b7374071f9f2a6786c3dbb4c1ef177"
+		}
+	]
+}
