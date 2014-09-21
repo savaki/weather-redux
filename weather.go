@@ -2,9 +2,7 @@ package main
 
 import (
 	"code.google.com/p/go.net/context"
-	"encoding/json"
 	"errors"
-	"fmt"
 	"github.com/savaki/merge"
 	"math/rand"
 	"time"
@@ -103,10 +101,4 @@ func FindWeather(state State) (map[City]Weather, error) {
 		weathers[result.City] = result
 	}
 	return weathers, nil
-}
-
-func main() {
-	weathers, _ := FindWeather(CA)
-	data, _ := json.MarshalIndent(weathers, "", " ")
-	fmt.Println(string(data))
 }
