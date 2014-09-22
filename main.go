@@ -13,7 +13,7 @@ func Fail(w http.ResponseWriter, err error) {
 }
 
 func WeatherHandler(w http.ResponseWriter, req *http.Request) {
-	ctx, cancel := context.WithTimeout(context.Background(), 5*time.Second)
+	ctx, cancel := context.WithTimeout(context.Background(), 3*time.Second)
 	defer cancel()
 
 	// read the user's input

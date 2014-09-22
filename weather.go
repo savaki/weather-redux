@@ -44,12 +44,12 @@ func findWeatherForCities(ctx context.Context, cities []City) ([]Weather, error)
 		// a language without generics!
 		//
 		resolver := par.Requests(requests).WithRedundancy(redundancy).WithConcurrency(10)
-		return responses, resolver.Do()
+		return responses, resolver.DoWithContext(ctx)
 	}()
 
 	// extract and convert results
-	var weathers []Weather
-	var dedup map[City]City
+	weathers := []Weather{}
+	dedup := map[City]City{}
 	for weather := range responses {
 		if _, ok := dedup[weather.City]; !ok {
 			dedup[weather.City] = weather.City
