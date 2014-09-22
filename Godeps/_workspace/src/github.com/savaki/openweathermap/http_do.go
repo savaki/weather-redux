@@ -1,9 +1,12 @@
-package merge_test
+package openweathermap
 
 import (
 	"code.google.com/p/go.net/context"
+	. "github.com/visionmedia/go-debug"
 	"net/http"
 )
+
+var debug = Debug("openweathermap")
 
 type ResponseHandlerFunc func(*http.Response, error) error
 
@@ -14,6 +17,7 @@ func httpDo(ctx context.Context, req *http.Request, f ResponseHandlerFunc) error
 	c := make(chan error, 1)
 
 	go func() { c <- f(client.Do(req)) }()
+
 	select {
 	case <-ctx.Done():
 		debug("http - CancelRequest")

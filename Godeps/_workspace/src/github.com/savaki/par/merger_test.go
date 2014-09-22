@@ -1,9 +1,9 @@
-package merge_test
+package par_test
 
 import (
 	"bytes"
 	"code.google.com/p/go.net/context"
-	"github.com/savaki/merge"
+	"github.com/savaki/par"
 	. "github.com/visionmedia/go-debug"
 	"io"
 	"net/http"
@@ -11,18 +11,18 @@ import (
 	"time"
 )
 
-var debug = Debug("merge_test")
+var debug = Debug("par_test")
 
 type weather struct {
 	city  string
 	value string
 }
 
-func FindWeather(city string, results chan weather) merge.RequestFunc {
+func FindWeather(city string, results chan weather) par.RequestFunc {
 	_city := city
 	return func(ctx context.Context) error {
 		request, _ := http.NewRequest("GET", "http://api.openweathermap.org/data/2.5/weather?q="+_city, nil)
-		return httpDo(ctx, request, func(response *http.Response, err error) error {
+		return par.Do(ctx, request, func(response *http.Response, err error) error {
 			if err != nil {
 				return err
 			}
@@ -38,9 +38,9 @@ func FindWeather(city string, results chan weather) merge.RequestFunc {
 	}
 }
 
-func TestMerger(t *testing.T) {
+func TestPar(t *testing.T) {
 	// Given a channel of requests
-	parallelism := 2
+	redundancy := 2
 	cities := []string{
 		"San Francisco",
 		"Oakland",
@@ -49,17 +49,21 @@ func TestMerger(t *testing.T) {
 		"San Jose",
 	}
 
-	requests := make(chan merge.RequestFunc, len(cities))
-	results := make(chan weather, len(cities)*parallelism) // buffer for clarity of example
+	requests := make(chan par.RequestFunc, len(cities))
+	results := make(chan weather, len(cities)*redundancy) // buffer for clarity of example
 	for _, city := range cities {
 		requests <- FindWeather(city, results)
 	}
 	close(requests)
 
 	// When
-	timeout := 1 * time.Minute
-	merger := merge.Requests(requests, timeout).WithParallelism(parallelism)
-	err := merger.Merge()
+	ctx, cancel := context.WithTimeout(context.Background(), 3*time.Second)
+	defer cancel()
+	parallel := par.
+		Requests(requests).
+		WithRedundancy(redundancy).
+		WithConcurrency(3)
+	err := parallel.DoWithContext(ctx)
 
 	// Then - I expect success
 	if err != nil {

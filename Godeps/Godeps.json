@@ -8,8 +8,16 @@
 			"Rev": "28ff664507e453c4455b8c65e701bbe2b2ac980d"
 		},
 		{
-			"ImportPath": "github.com/savaki/merge",
-			"Rev": "c630d3cc088c9103c80f51a756e33aa525820a94"
+			"ImportPath": "github.com/savaki/cities-by-state",
+			"Rev": "d459a9ccd56e06219fb659508f99f770827399c1"
+		},
+		{
+			"ImportPath": "github.com/savaki/openweathermap",
+			"Rev": "b9749bb88fbfb98365116ad282299d55f3a6e7c5"
+		},
+		{
+			"ImportPath": "github.com/savaki/par",
+			"Rev": "7ff3d3c13ca7cf548d582b3168e06873943859e9"
 		},
 		{
 			"ImportPath": "github.com/visionmedia/go-debug",

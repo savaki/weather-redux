@@ -1,0 +1,434 @@
+<sites count="431">
+    <site>
+        <county_name>Monterey</county_name>
+        <description nil="true"/>
+        <feat_class>Populated Place</feat_class>
+        <feature_id>1536</feature_id>
+        <fips_class>C1</fips_class>
+        <fips_county_cd>53</fips_county_cd>
+        <full_county_name>Monterey County</full_county_name>
+        <link_title nil="true"/>
+        <url>http://www.ci.marina.ca.us/</url>
+        <name>Marina</name>
+        <primary_latitude>36.68</primary_latitude>
+        <primary_longitude>-121.8</primary_longitude>
+        <state_abbreviation>CA</state_abbreviation>
+        <state_name>California</state_name>
+    </site>
+    <site>
+        <county_name>Contra Costa</county_name>
+        <description nil="true"/>
+        <feat_class>Populated Place</feat_class>
+        <feature_id>1537</feature_id>
+        <fips_class>C1</fips_class>
+        <fips_county_cd>13</fips_county_cd>
+        <full_county_name>Contra Costa County</full_county_name>
+        <link_title nil="true"/>
+        <url>http://www.cityofmartinez.org/</url>
+        <name>Martinez</name>
+        <primary_latitude>38.01</primary_latitude>
+        <primary_longitude>-122.13</primary_longitude>
+        <state_abbreviation>CA</state_abbreviation>
+        <state_name>California</state_name>
+    </site>
+    <site>
+        <county_name>Yuba</county_name>
+        <description nil="true"/>
+        <feat_class>Populated Place</feat_class>
+        <feature_id>1538</feature_id>
+        <fips_class>C1</fips_class>
+        <fips_county_cd>115</fips_county_cd>
+        <full_county_name>Yuba County</full_county_name>
+        <link_title nil="true"/>
+        <url>http://www.marysville.ca.us/</url>
+        <name>Marysville</name>
+        <primary_latitude>39.14</primary_latitude>
+        <primary_longitude>-121.59</primary_longitude>
+        <state_abbreviation>CA</state_abbreviation>
+        <state_name>California</state_name>
+    </site>
+    <site>
+        <county_name>Los Angeles</county_name>
+        <description nil="true"/>
+        <feat_class>Populated Place</feat_class>
+        <feature_id>1539</feature_id>
+        <fips_class>C1</fips_class>
+        <fips_county_cd>37</fips_county_cd>
+        <full_county_name>Los Angeles County</full_county_name>
+        <link_title nil="true"/>
+        <url>http://www.cityofmaywood.com/</url>
+        <name>Maywood</name>
+        <primary_latitude>33.98</primary_latitude>
+        <primary_longitude>-118.18</primary_longitude>
+        <state_abbreviation>CA</state_abbreviation>
+        <state_name>California</state_name>
+    </site>
+    <site>
+        <county_name>Kern</county_name>
+        <description nil="true"/>
+        <feat_class>Populated Place</feat_class>
+        <feature_id>1540</feature_id>
+        <fips_class>C1</fips_class>
+        <fips_county_cd>29</fips_county_cd>
+        <full_county_name>Kern County</full_county_name>
+        <link_title nil="true"/>
+        <url>http://www.mcfarlandcity.org/</url>
+        <name>McFarland</name>
+        <primary_latitude>35.67</primary_latitude>
+        <primary_longitude>-119.22</primary_longitude>
+        <state_abbreviation>CA</state_abbreviation>
+        <state_name>California</state_name>
+    </site>
+    <site>
+        <county_name>Fresno</county_name>
+        <description nil="true"/>
+        <feat_class>Populated Place</feat_class>
+        <feature_id>1541</feature_id>
+        <fips_class>C1</fips_class>
+        <fips_county_cd>19</fips_county_cd>
+        <full_county_name>Fresno County</full_county_name>
+        <link_title nil="true"/>
+        <url>http://www.ci.mendota.ca.us/</url>
+        <name>Mendota</name>
+        <primary_latitude>36.75</primary_latitude>
+        <primary_longitude>-120.38</primary_longitude>
+        <state_abbreviation>CA</state_abbreviation>
+        <state_name>California</state_name>
+    </site>
+    <site>
+        <county_name>San Mateo</county_name>
+        <description nil="true"/>
+        <feat_class>Populated Place</feat_class>
+        <feature_id>1542</feature_id>
+        <fips_class>C1</fips_class>
+        <fips_county_cd>81</fips_county_cd>
+        <full_county_name>San Mateo County</full_county_name>
+        <link_title nil="true"/>
+        <url>http://www.menlopark.org</url>
+        <name>Menlo Park</name>
+        <primary_latitude>37.45</primary_latitude>
+        <primary_longitude>-122.18</primary_longitude>
+        <state_abbreviation>CA</state_abbreviation>
+        <state_name>California</state_name>
+    </site>
+    <site>
+        <county_name>San Bernardino</county_name>
+        <description nil="true"/>
+        <feat_class>Populated Place</feat_class>
+        <feature_id>1287</feature_id>
+        <fips_class>C1</fips_class>
+        <fips_county_cd>71</fips_county_cd>
+        <full_county_name>San Bernardino County</full_county_name>
+        <link_title nil="true"/>
+        <url>http://www.ci.adelanto.ca.us/</url>
+        <name>Adelanto</name>
+        <primary_latitude>34.58</primary_latitude>
+        <primary_longitude>-117.4</primary_longitude>
+        <state_abbreviation>CA</state_abbreviation>
+        <state_name>California</state_name>
+    </site>
+    <site>
+        <county_name>Merced</county_name>
+        <description nil="true"/>
+        <feat_class>Populated Place</feat_class>
+        <feature_id>1543</feature_id>
+        <fips_class>C1</fips_class>
+        <fips_county_cd>47</fips_county_cd>
+        <full_county_name>Merced County</full_county_name>
+        <link_title nil="true"/>
+        <url>http://www.cityofmerced.org/</url>
+        <name>Merced</name>
+        <primary_latitude>37.3</primary_latitude>
+        <primary_longitude>-120.48</primary_longitude>
+        <state_abbreviation>CA</state_abbreviation>
+        <state_name>California</state_name>
+    </site>
+    <site>
+        <county_name>Los Angeles</county_name>
+        <description nil="true"/>
+        <feat_class>Populated Place</feat_class>
+        <feature_id>1288</feature_id>
+        <fips_class>C1</fips_class>
+        <fips_county_cd>37</fips_county_cd>
+        <full_county_name>Los Angeles County</full_county_name>
+        <link_title nil="true"/>
+        <url>http://ci.agoura-hills.ca.us/</url>
+        <name>Agoura</name>
+        <primary_latitude>34.14</primary_latitude>
+        <primary_longitude>-118.73</primary_longitude>
+        <state_abbreviation>CA</state_abbreviation>
+        <state_name>California</state_name>
+    </site>
+    <site>
+        <county_name>Marin</county_name>
+        <description nil="true"/>
+        <feat_class>Populated Place</feat_class>
+        <feature_id>1544</feature_id>
+        <fips_class>C1</fips_class>
+        <fips_county_cd>41</fips_county_cd>
+        <full_county_name>Marin County</full_county_name>
+        <link_title nil="true"/>
+        <url>http://www.cityofmillvalley.org/</url>
+        <name>Mill Valley</name>
+        <primary_latitude>37.9</primary_latitude>
+        <primary_longitude>-122.54</primary_longitude>
+        <state_abbreviation>CA</state_abbreviation>
+        <state_name>California</state_name>
+    </site>
+    <site>
+        <county_name>Alameda</county_name>
+        <description nil="true"/>
+        <feat_class>Populated Place</feat_class>
+        <feature_id>1289</feature_id>
+        <fips_class>C1</fips_class>
+        <fips_county_cd>1</fips_county_cd>
+        <full_county_name>Alameda County</full_county_name>
+        <link_title nil="true"/>
+        <url>http://www.ci.alameda.ca.us/</url>
+        <name>Alameda</name>
+        <primary_latitude>37.76</primary_latitude>
+        <primary_longitude>-122.24</primary_longitude>
+        <state_abbreviation>CA</state_abbreviation>
+        <state_name>California</state_name>
+    </site>
+    <site>
+        <county_name>San Mateo</county_name>
+        <description nil="true"/>
+        <feat_class>Populated Place</feat_class>
+        <feature_id>1545</feature_id>
+        <fips_class>C1</fips_class>
+        <fips_county_cd>81</fips_county_cd>
+        <full_county_name>San Mateo County</full_county_name>
+        <link_title nil="true"/>
+        <url>http://www.ci.millbrae.ca.us/</url>
+        <name>Millbrae</name>
+        <primary_latitude>37.59</primary_latitude>
+        <primary_longitude>-122.38</primary_longitude>
+        <state_abbreviation>CA</state_abbreviation>
+        <state_name>California</state_name>
+    </site>
+    <site>
+        <county_name>Alameda</county_name>
+        <description nil="true"/>
+        <feat_class>Populated Place</feat_class>
+        <feature_id>1290</feature_id>
+        <fips_class>C1</fips_class>
+        <fips_county_cd>1</fips_county_cd>
+        <full_county_name>Alameda County</full_county_name>
+        <link_title nil="true"/>
+        <url>http://www.albanyca.org/</url>
+        <name>Albany</name>
+        <primary_latitude>37.88</primary_latitude>
+        <primary_longitude>-122.29</primary_longitude>
+        <state_abbreviation>CA</state_abbreviation>
+        <state_name>California</state_name>
+    </site>
+    <site>
+        <county_name>Santa Clara</county_name>
+        <description nil="true"/>
+        <feat_class>Populated Place</feat_class>
+        <feature_id>1546</feature_id>
+        <fips_class>C1</fips_class>
+        <fips_county_cd>85</fips_county_cd>
+        <full_county_name>Santa Clara County</full_county_name>
+        <link_title nil="true"/>
+        <url>http://www.ci.milpitas.ca.gov/</url>
+        <name>Milpitas</name>
+        <primary_latitude>37.42</primary_latitude>
+        <primary_longitude>-121.9</primary_longitude>
+        <state_abbreviation>CA</state_abbreviation>
+        <state_name>California</state_name>
+    </site>
+    <site>
+        <county_name>Los Angeles</county_name>
+        <description nil="true"/>
+        <feat_class>Populated Place</feat_class>
+        <feature_id>1291</feature_id>
+        <fips_class>C1</fips_class>
+        <fips_county_cd>37</fips_county_cd>
+        <full_county_name>Los Angeles County</full_county_name>
+        <link_title nil="true"/>
+        <url>http://www.cityofalhambra.org/</url>
+        <name>Alhambra</name>
+        <primary_latitude>34.09</primary_latitude>
+        <primary_longitude>-118.12</primary_longitude>
+        <state_abbreviation>CA</state_abbreviation>
+        <state_name>California</state_name>
+    </site>
+    <site>
+        <county_name>Orange</county_name>
+        <description nil="true"/>
+        <feat_class>Populated Place</feat_class>
+        <feature_id>1547</feature_id>
+        <fips_class>C1</fips_class>
+        <fips_county_cd>59</fips_county_cd>
+        <full_county_name>Orange County</full_county_name>
+        <link_title nil="true"/>
+        <url>http://www.cityofmissionviejo.org/</url>
+        <name>Mission Viejo</name>
+        <primary_latitude>33.6</primary_latitude>
+        <primary_longitude>-117.67</primary_longitude>
+        <state_abbreviation>CA</state_abbreviation>
+        <state_name>California</state_name>
+    </site>
+    <site>
+        <county_name>Orange</county_name>
+        <description nil="true"/>
+        <feat_class>Populated Place</feat_class>
+        <feature_id>1292</feature_id>
+        <fips_class>C1</fips_class>
+        <fips_county_cd>59</fips_county_cd>
+        <full_county_name>Orange County</full_county_name>
+        <link_title nil="true"/>
+        <url>http://ci.aliso-viejo.ca.us/</url>
+        <name>Aliso Viejo</name>
+        <primary_latitude>33.6</primary_latitude>
+        <primary_longitude>-117.74</primary_longitude>
+        <state_abbreviation>CA</state_abbreviation>
+        <state_name>California</state_name>
+    </site>
+    <site>
+        <county_name>Stanislaus</county_name>
+        <description nil="true"/>
+        <feat_class>Populated Place</feat_class>
+        <feature_id>1548</feature_id>
+        <fips_class>C1</fips_class>
+        <fips_county_cd>99</fips_county_cd>
+        <full_county_name>Stanislaus County</full_county_name>
+        <link_title nil="true"/>
+        <url>http://www.ci.modesto.ca.us/</url>
+        <name>Modesto</name>
+        <primary_latitude>37.63</primary_latitude>
+        <primary_longitude>-120.99</primary_longitude>
+        <state_abbreviation>CA</state_abbreviation>
+        <state_name>California</state_name>
+    </site>
+    <site>
+        <county_name>Modoc</county_name>
+        <description nil="true"/>
+        <feat_class>Populated Place</feat_class>
+        <feature_id>1293</feature_id>
+        <fips_class>C1</fips_class>
+        <fips_county_cd>49</fips_county_cd>
+        <full_county_name>Modoc County</full_county_name>
+        <link_title nil="true"/>
+        <url>http://www.cityofalturas.org/</url>
+        <name>Alturas</name>
+        <primary_latitude>41.48</primary_latitude>
+        <primary_longitude>-120.54</primary_longitude>
+        <state_abbreviation>CA</state_abbreviation>
+        <state_name>California</state_name>
+    </site>
+    <site>
+        <county_name>Los Angeles</county_name>
+        <description nil="true"/>
+        <feat_class>Populated Place</feat_class>
+        <feature_id>1549</feature_id>
+        <fips_class>C1</fips_class>
+        <fips_county_cd>37</fips_county_cd>
+        <full_county_name>Los Angeles County</full_county_name>
+        <link_title nil="true"/>
+        <url>http://www.ci.monrovia.ca.us/</url>
+        <name>Monrovia</name>
+        <primary_latitude>34.14</primary_latitude>
+        <primary_longitude>-117.99</primary_longitude>
+        <state_abbreviation>CA</state_abbreviation>
+        <state_name>California</state_name>
+    </site>
+    <site>
+        <county_name>Napa</county_name>
+        <description nil="true"/>
+        <feat_class>Populated Place</feat_class>
+        <feature_id>1295</feature_id>
+        <fips_class>C1</fips_class>
+        <fips_county_cd>55</fips_county_cd>
+        <full_county_name>Napa County</full_county_name>
+        <link_title nil="true"/>
+        <url>http://www.ci.american-canyon.ca.us/</url>
+        <name>American Canyon</name>
+        <primary_latitude>38.17</primary_latitude>
+        <primary_longitude>-122.26</primary_longitude>
+        <state_abbreviation>CA</state_abbreviation>
+        <state_name>California</state_name>
+    </site>
+    <site>
+        <county_name>San Bernardino</county_name>
+        <description nil="true"/>
+        <feat_class>Populated Place</feat_class>
+        <feature_id>1551</feature_id>
+        <fips_class>C1</fips_class>
+        <fips_county_cd>71</fips_county_cd>
+        <full_county_name>San Bernardino County</full_county_name>
+        <link_title nil="true"/>
+        <url>http://www.ci.montclair.ca.us/</url>
+        <name>Montclair</name>
+        <primary_latitude>34.07</primary_latitude>
+        <primary_longitude>-117.68</primary_longitude>
+        <state_abbreviation>CA</state_abbreviation>
+        <state_name>California</state_name>
+    </site>
+    <site>
+        <county_name>Orange</county_name>
+        <description nil="true"/>
+        <feat_class>Populated Place</feat_class>
+        <feature_id>1296</feature_id>
+        <fips_class>C1</fips_class>
+        <fips_county_cd>59</fips_county_cd>
+        <full_county_name>Orange County</full_county_name>
+        <link_title nil="true"/>
+        <url>http://www.anaheim.net/</url>
+        <name>Anaheim</name>
+        <primary_latitude>33.83</primary_latitude>
+        <primary_longitude>-117.91</primary_longitude>
+        <state_abbreviation>CA</state_abbreviation>
+        <state_name>California</state_name>
+    </site>
+    <site>
+        <county_name>Santa Clara</county_name>
+        <description nil="true"/>
+        <feat_class>Populated Place</feat_class>
+        <feature_id>1552</feature_id>
+        <fips_class>C1</fips_class>
+        <fips_county_cd>85</fips_county_cd>
+        <full_county_name>Santa Clara County</full_county_name>
+        <link_title nil="true"/>
+        <url>http://www.montesereno.org/</url>
+        <name>Monte Sereno</name>
+        <primary_latitude>37.23</primary_latitude>
+        <primary_longitude>-121.99</primary_longitude>
+        <state_abbreviation>CA</state_abbreviation>
+        <state_name>California</state_name>
+    </site>
+    <site>
+        <county_name>Shasta</county_name>
+        <description nil="true"/>
+        <feat_class>Populated Place</feat_class>
+        <feature_id>1297</feature_id>
+        <fips_class>C1</fips_class>
+        <fips_county_cd>89</fips_county_cd>
+        <full_county_name>Shasta County</full_county_name>
+        <link_title nil="true"/>
+        <url>http://www.ci.anderson.ca.us/</url>
+        <name>Anderson</name>
+        <primary_latitude>40.44</primary_latitude>
+        <primary_longitude>-122.29</primary_longitude>
+        <state_abbreviation>CA</state_abbreviation>
+        <state_name>California</state_name>
+    </site>
+    <site>
+        <county_name>Los Angeles</county_name>
+        <description nil="true"/>
+        <feat_class>Populated Place</feat_class>
+        <feature_id>1553</feature_id>
+        <fips_class>C1</fips_class>
+        <fips_county_cd>37</fips_county_cd>
+        <full_county_name>Los Angeles County</full_county_name>
+        <link_title nil="true"/>
+        <url>http://www.cityofmontebello.com/</url>
+        <name>Montebello</name>
+        <primary_latitude>34</primary_latitude>
+        <primary_longitude>-118.1</primary_longitude>
+        <state_abbreviation>CA</state_abbreviation>
+        <state_name>California</state_name>
+    </site>
+</sites>`
